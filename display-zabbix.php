@@ -25,3 +25,7 @@ function deactivate_display_zabbix_plugin() {
     Includes\Base\Deactivate::deactivate();
 }
 register_deactivation_hook(__FILE__, 'deactivate_display_zabbix_plugin');
+
+if (class_exists('Includes\\Init')) {
+    Includes\Init::register_services();
+}
