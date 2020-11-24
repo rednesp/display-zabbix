@@ -1,0 +1,17 @@
+{
+    "name": "rednesp/display-zabbix",
+    "description": "Display zabbix graphs wordpress plugin",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Antonio Francisco",
+            "email": "ajoaoff@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {"Includes\\": "./includes"}
+    }
+}
