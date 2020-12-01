@@ -8,6 +8,7 @@ final class Init
         return [
             Pages\Admin::class,
             Base\SettingsLinks::class,
+            Base\ZabbixGraph::class,
         ];
     }
 
@@ -20,3 +21,18 @@ final class Init
         }
     }
 }
+//     }
+
+//     function uninstall() {
+        
+//     }
+
+//     function custom_post_type() {
+//         register_post_type('graph', ['public' => true, 'label' => 'Graphs']);
+//     }
+// }
+
+// if (class_exists('DisplayZabbix')) {
+//     $displayZabbix = new DisplayZabbix();
+//     $displayZabbix->register();
+// }
